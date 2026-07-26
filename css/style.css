@@ -133,33 +133,6 @@ nav a.active::after {
   background: var(--flame);
 }
 
-.cart-icon {
-  position: relative;
-  font-size: 1.1rem;
-}
-
-.cart-count {
-  position: absolute;
-  top: -8px;
-  right: -12px;
-  background: var(--flame);
-  color: var(--bg);
-  font-family: var(--font-body);
-  font-size: 0.65rem;
-  font-weight: 700;
-  min-width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 0 3px;
-}
-
-.cart-count.show {
-  display: flex;
-}
-
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -394,30 +367,6 @@ nav a.active::after {
 
 .contacto-card a:hover {
   color: var(--flame);
-}
-
-/* ---------- Toast ---------- */
-
-.toast {
-  position: fixed;
-  left: 50%;
-  bottom: 28px;
-  transform: translate(-50%, 20px);
-  background: var(--flame);
-  color: var(--bg);
-  font-size: 0.88rem;
-  font-weight: 500;
-  padding: 0.75rem 1.4rem;
-  border-radius: 999px;
-  opacity: 0;
-  pointer-events: none;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  z-index: 100;
-}
-
-.toast.show {
-  opacity: 1;
-  transform: translate(-50%, 0);
 }
 
 /* ---------- Footer ---------- */
